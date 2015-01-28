@@ -22,8 +22,45 @@ body {
   margin: 0;
 }
 
-nav {
-  list-style-type: none;
-  background-color: #00b1ae;
+li {
   color: white;
+  list-style-type: none;
+}
+
+nav {
+  background-color: #00b1ae;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.animatedbanner {
+  background-color: #e6e7e8;
+}
+
+.logo {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.thermo {
+  width: 7%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 20em) {
+    
+}
+
+@media only screen and (min-width: 44em) {
+          
+}
+
+@media only screen and (min-width: 60em) {
+    
 }

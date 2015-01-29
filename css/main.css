@@ -46,11 +46,6 @@ p {
   margin: 0 auto;
 }
 
-.redball {
-  width: 7%;
-  position: absolute;
-}
-
 @media only screen and (min-width: 20em) {
     
 }

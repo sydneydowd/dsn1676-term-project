@@ -46,6 +46,35 @@ p {
   margin: 0 auto;
 }
 
+@keyframe up {
+  
+  0% {
+    transform: translateY(0);
+  }
+  
+  50% {
+    transform: translateY(20px);
+  }
+  
+  65% {
+    transform: translateY(40px);
+  }
+  
+  75% {
+    transform: translateY(50px);
+  }
+  
+  85% {
+    transform: translateY(70px);
+  }
+  
+  100% {
+    transform: translateY(90px);
+  }
+}
+
+
+
 @media only screen and (min-width: 20em) {
     
 }

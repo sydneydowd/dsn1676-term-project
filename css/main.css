@@ -36,14 +36,17 @@ p {
 }
 
 .logo {
-  width:30%;
+  position: relative;
+  height:20px;
+  width:200px;
   margin: 0 auto;
+  padding-bottom: 2em;
 }
 
 .logo:hover {
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .thermo {

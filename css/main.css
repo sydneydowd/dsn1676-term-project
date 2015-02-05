@@ -163,7 +163,7 @@ p {
 @media only screen and (min-width: 20em) {
   
    p {
-    max-width: 30em;
+    max-width: 35em;
     margin: 0 auto;
   }
     

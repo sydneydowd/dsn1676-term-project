@@ -93,25 +93,25 @@ p {
   animation: slidebar 3s ease-out forwards;
 }
 
-@-webkit-keyframes slidebar {
+@keyframes slidebar {
   
   0% {
-    -webkit-height: 0;
+    height: 0;
   }
   
   100% {
-    -webkit-height: 100px;
+    height: 100px;
   }
 }
 
 @keyframes slidebar {
   
   0% {
-    -webkit-height: 0;
+    height: 0;
   }
   
   100% {
-    -webkit-height: 100px;
+    height: 100px;
   }
 }
 

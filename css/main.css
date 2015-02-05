@@ -107,11 +107,11 @@ p {
 @keyframes slidebar {
   
   0% {
-    height: 0;
+    -webkit-height: 0;
   }
   
   100% {
-    height: 100px;
+    -webkit-height: 100px;
   }
 }
 

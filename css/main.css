@@ -34,6 +34,7 @@ p {
 
 .animatedbanner {
   background-color: #f1f2f2;
+   height: 100vh;
 }
 
 .logo {
@@ -69,6 +70,12 @@ p {
     position: relative;
     width: 60px;
     float: right;
+}
+
+.hamburger:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
   
 .thermo {
@@ -150,15 +157,16 @@ p {
 }
 
 @media only screen and (min-width: 20em) {
+  
+   p {
+    max-width: 30em;
+    margin: 0 auto;
+  }
     
 }
 
 @media only screen and (min-width: 44em) {
   
-  p {
-    max-width: 25em;
-    margin: 0 auto;
-  }
           
 }
 

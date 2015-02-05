@@ -32,6 +32,11 @@ p {
   text-align: center;
 }
 
+h2 {
+  position: relative;
+  text-align: center;
+}
+
 .animatedbanner {
   background-color: #f1f2f2;
    height: 100vh;
@@ -70,12 +75,6 @@ p {
     position: relative;
     width: 60px;
     float: right;
-}
-
-.hamburger:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
 }
   
 .thermo {

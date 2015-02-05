@@ -32,14 +32,19 @@ p {
   text-align: center;
 }
 
-h2 {
+.title {
   position: relative;
   text-align: center;
 }
 
+.title:hover {
+  color:#e73d50;
+  
+}
+
 .animatedbanner {
   background-color: #f1f2f2;
-   height: 100vh;
+  height: 100vh;
 }
 
 .logo {
@@ -117,11 +122,11 @@ h2 {
 @keyframes slidebar {
   
   0% {
-    -webkit-height: 0;
+    height: 0;
   }
   
   100% {
-    -webkit-height: 100px;
+    height: 100px;
   }
 }
 

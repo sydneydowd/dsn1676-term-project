@@ -22,6 +22,9 @@ body {
   margin: 0;
 }
 
+.maincontent {
+  padding-top: 100px;
+}
 
 h2 {
   text-align: center;
@@ -92,7 +95,7 @@ p {
 .thermo img {
   position: absolute;
   height: 200px;
-  top:50px;
+  top:0px;
   left: 50%;
   transform: translateX(-50%);
 }

@@ -63,8 +63,11 @@ p {
 }
 
 .hamburger {
-  height:20px;
-  width: 40px;
+  display: block;
+    height: 24px;
+    padding: 3px 4px 3px;
+    position: relative;
+    width: 25px;
 }
   
 .thermo {

@@ -92,7 +92,7 @@ p {
 .thermo img {
   position: absolute;
   height: 200px;
-  top:0px;
+  top:50px;
   left: 50%;
   transform: translateX(-50%);
 }

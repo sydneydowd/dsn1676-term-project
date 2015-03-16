@@ -9,18 +9,34 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<header>
+
+<header role="banner" class=" grid navbackground" id="top">
+    <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 gutter-1-2">
+      <a href="index.html">
+          <img src="images/logo.svg" alt="logo" class="logo pad-t">
+      </a>
+    </div>
+    <div class="navwrapper unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unitl-1-2" id="nav">
+      <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
+          <nav role="navigation" class="nav nav-top" data-state="collapsed">
+             <ul>
+                <li><a class="gutter" href="#ourtea">Our Tea</a></li>
+                <li><a class="gutter" href="#teaaccessories">Tea Accessories</a></li>
+                <li><a class="gutter" href="#contact">Contact</a></li>
+            </ul>    
+          </nav>
+     </div>
+</header>
+  
 <div class="animatedbanner">
   <div class="snowflakes"></div>
-  <figure class="hamburger"><img src="images/hamburger.svg" alt="nav fly down"></figure>
     <div class="maincontent">
-      <figure class="thermo pad-t"><div class="bar"></div><img src="images/thermo.svg" alt="tempature icon"></figure>
-      <figure class="pad-t logo"><img src="images/logo.svg" alt="david's tea logo"></figure>
-      <h1 class="title pad-t">Sip the Cold Away</h1>
-      <p class="pad-b gutter">Need relief? We've got a huge selection of deliciously soothing teas that'll get you through cold season in serious style</p>
+        <figure class="thermo pad-t"><div class="bar"></div><img src="images/thermo.svg" alt="tempature icon"></figure>
+          <h1 class="title pad-t">Sip the Cold Away</h1>
+            <p class="pad-b gutter">Need relief? We've got a huge selection of deliciously soothing teas that'll get you through cold season in serious style</p>
     </div>
-  <figure class="scroll"><img src="images/scroll.svg" alt="scroll button"></figure>
+    <figure class="scroll"><img src="images/scroll.svg" alt="scroll button"</figure>
 </div> 
-</header>
+
 </body>
 </html>

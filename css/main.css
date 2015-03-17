@@ -33,8 +33,11 @@ body {
     background-color:#00b0ae;
     display: none;
     font-family: 'Helvetica', sans-serif;
-    text-align: left;
     text-align: center;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 1em;
+    z-index: 100;
 }
 
 .nav a {
@@ -51,6 +54,7 @@ body {
 .nav-check {
     position: absolute;
     top: -3em;
+    z-index: 5;
 }
 
 .nav-check:checked ~ .nav {
@@ -62,13 +66,16 @@ body {
     font-size: 1.50rem;
     display: inline-block;
     width: 40px;
+    float: right;
 }
 
 .nav-open,
 .nav-close {
-    display: block;
-    width: 90%;
+    display: inline-block;
+    width: 1.5em;
     margin: 1.5rem;
+    position: absolute;
+    right:0;
 }
 
 .nav-close {
@@ -202,10 +209,13 @@ p {
 .snowflakes {
   position: absolute;
   background-image:url(images/snowflakes.svg);
+  top:10em;
+  overflow: hidden;
   height: 100vh;
   width: 100%;
   -webkit-animation: scale 10s ease-in-out infinite alternate;
   animation: scale 10s ease-in-out infinite alternate;
+  z-index: 0;
 }
 
 @-webkit-keyframes scale {

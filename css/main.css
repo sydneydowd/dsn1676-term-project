@@ -110,11 +110,12 @@ p {
   text-align: center;
 }
 
-.teas {
-  width: 50%;
-  margin: 0;
-  padding: 0;
+.tabs {
+    margin: 0;
+    padding: 0;
 }
+
+
 
 @media only screen and (min-width: 25em){
 

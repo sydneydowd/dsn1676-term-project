@@ -113,8 +113,45 @@ p {
 .tabs {
     margin: 0;
     padding: 0;
+    background-color:#00b0ae;
 }
 
+.tabs-li {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+.tab-name {
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    color:#f1f2f2;
+    font-size: 2rem;
+    margin: .5em;
+}
+
+.tab-name:hover {
+    background-color: #23c4bf;
+    color: white;
+    padding: .5rem;
+}
+
+.teas {
+    width: 11rem;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.tab-panels {
+    text-align: center;
+}
 
 
 @media only screen and (min-width: 25em){

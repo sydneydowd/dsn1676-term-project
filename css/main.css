@@ -96,7 +96,6 @@ body {
     text-align: center;
 }
 
-
 .maincontent {
   padding-top: 100px;
 }
@@ -133,7 +132,7 @@ p {
     text-decoration: none;
     font-family: 'Helvetica', sans-serif;
     text-align: center;
-    color:#f1f2f2;
+    color:white;
     font-size: 2rem;
     margin: .5em;
 }

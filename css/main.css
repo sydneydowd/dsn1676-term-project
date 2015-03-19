@@ -252,7 +252,7 @@ p {
 .snowflakes {
   position: absolute;
   background-image:url(images/snowflakes.svg);
-  top:5em;
+  top:10em;
   bottom: 50em;
   overflow: hidden;
   height:32em;

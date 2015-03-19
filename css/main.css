@@ -33,6 +33,7 @@ body {
     list-style-type: none;
     background-color:#00b0ae;
     display: none;
+    font-size: 1rem;
     font-family: 'Helvetica', sans-serif;
     text-align: center;
     overflow: hidden;
@@ -93,7 +94,6 @@ body {
 
 .nav li {
     display: inline-block;
-    text-align: center;
 }
 
 .maincontent {
@@ -133,14 +133,12 @@ p {
     font-family: 'Helvetica', sans-serif;
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: .5em;
 }
 
 .tab-name:hover {
-    background-color: #23c4bf;
-    color: white;
-    padding: .5rem;
+    color: black;
 }
 
 .teas {
@@ -148,6 +146,7 @@ p {
     border: 5px solid #f1f2f2;
     display: inline-block;
     margin: 0 auto;
+    padding: .75em;
 }
 
 .tab-panels {
@@ -174,7 +173,6 @@ p {
 
 .animatedbanner {
   background-color: #f1f2f2;
-  height: 100vh;0
 }
 
 .logo {
@@ -193,7 +191,7 @@ p {
 .scroll {
   position: relative;
   width: 40px;
-  padding-bottom: 15px;
+  padding-bottom: 80px;
   margin: 0 auto;
 }
 
@@ -254,10 +252,10 @@ p {
 .snowflakes {
   position: absolute;
   background-image:url(images/snowflakes.svg);
-  top:10em;
+  top:5em;
   bottom: 50em;
   overflow: hidden;
-  height: 100vh;
+  height:32em;
   width: 100%;
   -webkit-animation: scale 10s ease-in-out infinite alternate;
   animation: scale 10s ease-in-out infinite alternate;

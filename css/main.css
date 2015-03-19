@@ -253,9 +253,9 @@ p {
   position: absolute;
   background-image:url(images/snowflakes.svg);
   top:10em;
-  bottom: 50em;
+  bottom: 10em;
   overflow: hidden;
-  height:32em;
+  height:25em;
   width: 100%;
   -webkit-animation: scale 10s ease-in-out infinite alternate;
   animation: scale 10s ease-in-out infinite alternate;

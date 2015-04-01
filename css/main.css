@@ -258,8 +258,8 @@ p {
 .footerlogo{
   width: 10em;
   max-height: 5em;
-  float: left;
   padding: 1em;
+
 }
 
 .footerlogo:hover {
@@ -271,9 +271,10 @@ p {
 .footerskip {
   margin: 0;
   padding: 0;
-  padding-top: .5em;
-  width: 2em;
-  right:0;
+  padding-top: 1em;
+  width:3em;
+  float: right;
+  padding-right: 1em;
 }
 
 .footerskip:hover {

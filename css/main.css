@@ -251,7 +251,7 @@ p {
 
 .footer {
   margin: 0;
-  padding: .5;
+  padding-bottom: 1em;
   background-color: #f1f2f2;
 }
 
@@ -262,15 +262,21 @@ p {
   padding: 1em;
 }
 
-.footerskip {
-    text-decoration: none;
-    font-family: 'Helvetica', sans-serif;
-    color:#00b0ae;
-    font-size: 1rem;
-    margin: .5em;
+.footerlogo:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.footerlogo:hover {
+.footerskip {
+  margin: 0;
+  padding: 0;
+  padding-top: .5em;
+  width: 2em;
+  right:0;
+}
+
+.footerskip:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);

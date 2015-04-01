@@ -262,6 +262,14 @@ p {
   padding: 1em;
 }
 
+.footerskip {
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    color:#00b0ae;
+    font-size: 1rem;
+    margin: .5em;
+}
+
 .footerlogo:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);

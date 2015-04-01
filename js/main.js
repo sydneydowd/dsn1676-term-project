@@ -8,3 +8,7 @@ $tabs.on('click', 'a', function (e) {
     $panels.filter(':not([hidden])').attr('hidden', true);
     $(id).removeAttr('hidden');
 });
+
+$('.content').localScroll();
+
+$('.nav').localScroll();

@@ -1,6 +1,11 @@
 var $tabs = $('.tabs');
 var $panels = $('.panel');
 
+var $footer = $('.footer');
+var $nav = $('.nav');
+var $animatedbanner = $('.animatedbanner');
+
+
 $tabs.on('click', 'a', function (e) {
     e.preventDefault();
     var id = $(this).attr('href');
@@ -9,6 +14,7 @@ $tabs.on('click', 'a', function (e) {
     $(id).removeAttr('hidden');
 });
 
-$('.content').localScroll();
 
-$('.nav').localScroll();
+$footer.localScroll();
+$nav.localScroll();
+$animatedbanner.localScroll();

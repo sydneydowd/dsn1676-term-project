@@ -371,6 +371,15 @@ hr {
   }
 }
 
+.svg-cup{
+  text-align: center;
+}
+
+#cup {
+  overflow: visible;
+}
+
+
 #lid {
   transform: translateY(0);
   transition: all 200ms ease;

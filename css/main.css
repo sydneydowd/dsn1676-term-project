@@ -371,14 +371,15 @@ hr {
   }
 }
 
-.svg-cup{
+.davidstea{
   text-align: center;
+  transition: transition: all 1s linear;
+  overflow: visible;
 }
 
 #cup {
   overflow: visible;
 }
-
 
 #lid {
   transform: translateY(0);
@@ -388,6 +389,16 @@ hr {
 #cup:hover #lid {
   transform: translateY(-20px);
 }
+
+#liquid {
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+#tea:hover #liquid {
+  opacity:1;
+}
+
 
 @media only screen and (min-width: 20em) {
   

@@ -7,8 +7,6 @@ var $animatedbanner = $('.animatedbanner');
 
 var $cupSection = $('.cup');
 
-
-
 $tabs.on('click', 'a', function (e) {
     e.preventDefault();
     var id = $(this).attr('href');

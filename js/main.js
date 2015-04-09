@@ -5,6 +5,8 @@ var $footer = $('.footer');
 var $nav = $('.nav');
 var $animatedbanner = $('.animatedbanner');
 
+var $cupSection = $('.cup');
+
 
 
 $tabs.on('click', 'a', function (e) {
@@ -20,8 +22,6 @@ $footer.localScroll();
 $nav.localScroll();
 $animatedbanner.localScroll();
 
-var $teaSection = $('.tea');
-
-$teaSection.waypoint(function () {
-  $teaSection.toggleClass('js-active');
+$cupSection.waypoint(function () {
+  $cupSection.toggleClass('js-active');
 },{offset: '60%' });

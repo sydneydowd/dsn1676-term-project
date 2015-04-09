@@ -384,21 +384,16 @@ hr {
 #lid {
   transform: translateY(0);
   transition: all 200ms ease;
+  fill: none;
 }
 
 #cup:hover #lid {
   transform: translateY(-20px);
 }
 
-#liquid {
-  opacity: 0;
-  transition: all 1s linear;
+.js-active #lid {
+  transform: translateY(-20px);
 }
-
-#tea:hover #liquid {
-  opacity:1;
-}
-
 
 @media only screen and (min-width: 20em) {
   

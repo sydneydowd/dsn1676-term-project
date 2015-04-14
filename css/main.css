@@ -170,7 +170,7 @@ h1 {
 }
 
 .animatedbanner {
-  background-color: #f1f2f2;
+  background-image: url(images/banner-background.png)
 }
 
 .logo {
@@ -301,18 +301,7 @@ h1 {
   transform: scale(1.1);
 }
 
-.snowflakes {
-  position: absolute;
-  background-image:url(images/snowflakes.svg);
-  top:10em;
-  bottom: 10em;
-  overflow: hidden;
-  height:30em;
-  width: 100%;
-  -webkit-animation: scale 10s ease-in-out infinite alternate;
-  animation: scale 10s ease-in-out infinite alternate;
-  z-index: 0;
-}
+
 
 .our-product {
   padding-left: 2em; 

@@ -105,6 +105,7 @@ h1 {
 }
 
 .intro {
+  color: white;
   position: relative;
   text-align: center;
 }
@@ -160,6 +161,7 @@ h1 {
 } 
 
 .title {
+  color: white;
   position: relative;
   text-align: center;
 }

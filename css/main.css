@@ -17,6 +17,13 @@ html {
   box-sizing: inherit;
 }
 
+br{
+    content: '.';
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px dotted #00b0ae;
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
@@ -341,7 +348,6 @@ h1 {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-
 
 
 .our-product {

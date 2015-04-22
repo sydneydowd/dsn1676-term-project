@@ -135,6 +135,8 @@ body {
 
 .animatedbanner {
   background-image: url(images/banner-background.png);
+  height: 100vh;
+  
 }
 
 .maincontent {

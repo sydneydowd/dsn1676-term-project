@@ -77,7 +77,6 @@ body {
     overflow: hidden;
     width: 100%;
     margin-top: 2em;
-    z-index: 100;
 }
 
 .nav a {
@@ -132,6 +131,10 @@ body {
 
 .nav li {
     display: inline-block;
+}
+
+.animatedbanner {
+  background-image: url(images/banner-background.png);
 }
 
 .maincontent {
@@ -215,10 +218,6 @@ h1 {
 .title:hover {
   color:#e73d50;
   
-}
-
-.animatedbanner {
-  background-image: url(images/banner-background.png)
 }
 
 .logo {
@@ -414,6 +413,9 @@ hr {
 
 #cup {
   overflow: visible;
+  width: 10%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 #lid {

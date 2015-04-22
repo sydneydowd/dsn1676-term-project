@@ -23,3 +23,6 @@ $animatedbanner.localScroll();
 $cupSection.waypoint(function () {
   $cupSection.toggleClass('js-active');
 },{offset: '60%' });
+
+
+

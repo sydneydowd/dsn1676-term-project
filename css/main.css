@@ -44,17 +44,9 @@ br{
     top: 0;
 }
 
-a:hover,
-a:active {
-    /* Its okay to remove the focus rectangle for mouse users
-        ITS NOT OLAY TO REMOVE FOR KEYBOARD USERS
-    */
-    outline: none;
-}
-
-a:focus {
-    outline: 3px solid #3c3c3c;
-}
+a {color:#00b0ae} 
+a:hover {color: #ff0000; text-decoration:none} 
+a:focus, a:active {color: #fff; background-color:#00b0ae}
 
 body {
   padding: 0;
